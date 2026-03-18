@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at top, rgba(109, 124, 255, 0.12), transparent 40%);
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/5 shadow-panel backdrop-blur;
+}
